@@ -8,12 +8,24 @@ a {
   text-decoration: none;
 }
 
+/* Navbar */
 .nav-colored {
   background-color: #000;
 }
 
 .nav-transparent {
   background-color: transparent;
+}
+
+.nav-link {
+  transition: all 0.1s ease;
+  border-bottom: 3.2px solid transparent;
+  margin-bottom: 0.3rem;
+}
+
+.nav-link:hover {
+  border-bottom: 3.2px solid #fff;
+  border-radius: 2px;
 }
 
 /* Showcase section */
